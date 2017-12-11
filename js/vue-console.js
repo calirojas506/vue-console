@@ -16,8 +16,8 @@ Vue.component('vue-console', {
 		}
 	},
 	template: `
-		<div class="c-vue-console" :class="{hidden: !isVisible}">
-			<div class="container-fluid">
+		<div class="c-vue-console">
+			<div class="container-fluid" :class="{hidden: !isVisible}">
 				<div class="c-vue-console__header row">
 					<div class="col-xs-12">
 						<div class="panel panel-primary">
