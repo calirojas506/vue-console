@@ -1,6 +1,6 @@
 /*
 	vue-console
-	A Basic JavaScript Console for Mobile Devices
+	Basic JavaScript Console for Mobile Devices
 
 	Released under MIT License
 	Copyright (c) 2017 Cali Rojas
