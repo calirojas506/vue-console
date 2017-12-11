@@ -26,8 +26,8 @@ This file basically contains a copy of Bootstrap namespaced and a couple of styl
 
 ```html
 <div id="app">
-	<!-- add the component to your view -->
-	<vue-console :is-visible="true"/>
+  <!-- add the component to your view -->
+  <vue-console :is-visible="true"/>
 </div>
 ```
 By default, the **is-visible** prop equals to **true**.
