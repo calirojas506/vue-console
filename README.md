@@ -34,3 +34,5 @@ By default, the **is-visible** prop equals to **true**.
 
 ## Important
 Use **vue-console** only in development mode. Do not forget to remove the script and style files before sending to production.
+
+This script is intended only browsers, running on Mobile Devices, that lacks of JavaScript console.
