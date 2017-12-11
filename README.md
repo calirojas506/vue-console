@@ -1,6 +1,8 @@
 # vue-console
 Basic JavaScript Console for Mobile Devices, as a Vue.js component.
 
+![](/images/vue-console-01.jpg)
+
 ## What is vue-console?
 vue-console is a very basic JavaScript console for mobile devices. It means, you'll be able to execute JavaScript code directly in your mobile browser and get error messages generated in run-time.
 
