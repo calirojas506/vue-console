@@ -30,7 +30,7 @@ This file basically contains a copy of Bootstrap namespaced and a couple of styl
   <vue-console :is-visible="true"/>
 </div>
 ```
-By default, the **is-visible** prop equals to **true**.
+By default, the **is-visible** prop equals to **true**. It's optional.
 
 ## Important
 Use **vue-console** only in development mode. Do not forget to remove the script and style files before sending to production.
