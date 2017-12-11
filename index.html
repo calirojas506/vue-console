@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>vue-console</title>
+	<!-- do not forget to include vue-console css file -->
+	<link rel="stylesheet" href="css/vue-console.css">
+</head>
+<body>
+	<div id="app">
+		<!-- add the component to your view -->
+		<vue-console/>
+	</div>
+
+	<!-- scripts (vue and vue-console) -->
+	<script src="https://unpkg.com/vue"></script>
+	<script src="js/vue-console.js"></script>
+
+	<!-- vue instance -->
+	<script>
+		var app = new Vue({
+			el: '#app'
+		});
+	</script>
+</body>
+</html>

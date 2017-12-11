@@ -1,0 +1,26 @@
+.c-vue-console{
+	@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+
+	*{
+		border-radius: 0 !important;
+	}
+
+	.panel-body{
+		overflow-y: auto;
+		max-height: 250px;
+
+		.list-unstyled{
+			li{
+				padding: 5px 0;
+			}
+		}
+	}
+}
